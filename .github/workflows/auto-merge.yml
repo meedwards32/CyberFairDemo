@@ -1,0 +1,23 @@
+name: Auto Merge
+
+on:
+	pull_request:
+	types:
+		- opened
+		- synchronize
+		- reopened
+
+jobs:
+	auto-merge:
+		runs-on: ubuntu-latest
+		steps:
+		- name: Checkout repository
+			uses: actions/checkout@v3
+
+		- name: Auto merge if checks pass
+			uses: pascalgn/automerge-action@v0.15.4
+			env:
+			GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+			with:
+			mergeMethod: merge
+			requiredLabels: "automerge"  # Merge only if "automerge" label is present
