@@ -1,14 +1,28 @@
 # CyberFairDemo
-# October 18, 2024 8am- 5pm
-# Michael Edwards and Sam Evans
-This is a demonstration for the CMU first annual cyber fair. 
 
-Who: This attack is targeted towards everyone. Specifically anyone with low technology IQ.
+### Date: October 18, 2024 (8 AM - 5 PM)
 
-What: This is a frontend html page and a backend using python (flask). This website repliactes Google.com and allows users to search. After search users search will be stored in a txt file.
+### Contributors:
+- **Michael Edwards**
+- **Sam Evans**
 
-Where: Google.com can be acccessed from mostdevices with a network connection
+## Overview
+This project is part of the first annual **CMU Cyber Fair**. The demonstration simulates an attack vector to raise awareness about common cybersecurity risks and online safety.
 
-Why: To demonstrate, social engineering, MiTM attacks, and network traffic. General awarness of online postioning (CHECK URLS)
+### Purpose:
+The aim is to highlight vulnerabilities in user behavior, specifically targeting individuals with a low technological IQ, and demonstrate how attackers exploit these gaps.
 
+## Key Details:
+- **Who**: The demonstration targets **all users**, especially those unfamiliar with safe online practices.
+- **What**: 
+  - The project includes a **frontend HTML page** that mimics Google's homepage.
+  - A **Python (Flask)** backend is used to handle user searches, which are saved in a `.txt` file.
+- **Where**: The replicated **Google.com** interface can be accessed from any device connected to the internet.
+- **Why**: 
+  - To educate users about **social engineering**, **Man-in-the-Middle (MiTM)** attacks, and **network traffic interception**.
+  - To encourage better awareness of **online security** and checking URLs for authenticity.
 
+## Educational Goals:
+- Demonstrate how attackers can manipulate a familiar interface (e.g., Google) for malicious purposes.
+- Illustrate the importance of **scrutinizing URLs** to prevent falling victim to phishing or spoofing attacks.
+- Show how **search data** can be captured and misused.
